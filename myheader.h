@@ -1,3 +1,13 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <pcap.h>
+#include <arpa/inet.h>
+#include <arpa/inet.h>
+#include <netinet/ip.h>
+#include <netinet/tcp.h>
+#include <net/ethernet.h>
+#include <netinet/udp.h>
+
 /*ETH Header*/
 struct ethheader {
     u_char  ether_dhost[6];    /* destination host address */
