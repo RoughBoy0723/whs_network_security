@@ -1,3 +1,4 @@
+/*ETH Header*/
 struct ethheader {
     u_char  ether_dhost[6];    /* destination host address */
     u_char  ether_shost[6];    /* source host address */
