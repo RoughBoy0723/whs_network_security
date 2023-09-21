@@ -19,7 +19,6 @@ struct ethheader {
 struct ipheader {
   unsigned char      iph_ihl:4, //IP header length
                      iph_ver:4; //IP version
-#define iph_v_l     iph_ihl + iph_ver
   unsigned char      iph_tos; //Type of service
   unsigned short int iph_len; //IP Packet length (data + header)
   unsigned short int iph_ident; //Identification
