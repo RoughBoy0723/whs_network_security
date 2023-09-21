@@ -2,11 +2,9 @@
 #include <stdio.h>
 #include <pcap.h>
 #include <arpa/inet.h>
-#include <arpa/inet.h>
 #include <netinet/ip.h>
 #include <netinet/tcp.h>
-#include <net/ethernet.h>
-#include <netinet/udp.h>
+#include <netinet/ethernet.h>
 
 #include "myheader.h"
 
