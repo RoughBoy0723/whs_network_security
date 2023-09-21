@@ -1,11 +1,3 @@
-#include <stdlib.h>
-#include <stdio.h>
-#include <pcap.h>
-#include <arpa/inet.h>
-#include <netinet/ip.h>
-#include <netinet/tcp.h>
-#include <netinet/ethernet.h>
-
 #include "myheader.h"
 
 void got_packet(u_char *args, const struct pcap_pkthdr *header, const u_char *packet)
