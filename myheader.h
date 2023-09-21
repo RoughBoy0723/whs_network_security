@@ -7,6 +7,7 @@
 #include <netinet/tcp.h>
 #include <net/ethernet.h>
 #include <netinet/udp.h>
+#include <time.h>
 
 /*ETH Header*/
 struct ethheader {
